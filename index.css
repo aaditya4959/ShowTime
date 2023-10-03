@@ -1,0 +1,48 @@
+body {
+    background-color: #131313;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    /* Add your logo styling here */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -5px;
+}
+
+.button {
+    background-color: #B76E22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 10px;
+}
