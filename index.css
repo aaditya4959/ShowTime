@@ -1,129 +1,122 @@
 
-        body {
-            background-color: #131313;
-            margin: 0;
-            padding: 0;
-        }
-        
-        nav {
-            background-color: black;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            border-radius: 0px;
-        }
-        
-        .logo img {
-            height: 40px; /* Adjust the height as needed */
-        }
-        
-        .nav-links {
-            list-style: none;
-            display: flex;
-            gap: 10px;
-        }
-        .nav-links a:hover {
-            background-color: #B76E22;
-            border: solid 1px white;
-            
-        }
-        
-        .nav-links li {
-            position: relative;
-        }
-        
-        .nav-links a {
-            color: white;
-            text-decoration: none; /* Remove underlines from links */
-        }
-        
-        .nav-links li:not(:last-child)::after {
-            content: "|";
-            position: absolute;
-            right: -5px;
-        }
-        
-        
+body {
+    background-color: #131313;
+    margin: 0;
+    padding: 0;
+}
 
-       
-        .button {
-            background-color: #B76E22;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .button-wrapper {
-            display: flex;
-            gap: 15px;
-        }
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
 
-        .button-wrapper a:hover{
-            background-color: whitesmoke;
-            color: black;
-            
-            cursor: pointer;
-        }
+.logo img {
+    height: 40px; /* Adjust the height as needed */
+}
 
-        .background {
-            background-image: url(/index_images/theatre.jpg);
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .content {
-            /* background-color: rgba(0, 0, 0, 0.7); Adds a semi-transparent black overlay to the background image */
-            color: white;
-            text-align:center;
-            padding: 20px;
-        }
-        
-        .background .content h1 {
-            font-size: 36px;
-        }
-        
-        .background .content p {
-            font-size: 18px;
-        }
-
-        .trailers .written h2{
-            color: white;
-            margin-top: 50px;
-            margin-left:40px; 
-            padding: 10px;
-
-        }
-
-        .trailers .cards{
-            margin-left: 40px;
-            margin-right: 40px;
-            text-align: center;
-        }
-
-        .trailers .cards img{
-            width: 200px;
-            height: 250px;
-            padding: 20px
-        }
-
-        
-
-
-        
-        
-        
-        
-        
-        
-        
-
-
-        
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.nav-links a:hover {
+    background-color: #B76E22;
+    border: solid 1px white;
     
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.nav-links li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -5px;
+}
+
+
+
+
+.button {
+    background-color: #B76E22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.button-wrapper a:hover{
+    background-color: whitesmoke;
+    color: black;
+    
+    cursor: pointer;
+}
+
+.background {
+    background-image: url(/index_images/theatre.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    /* background-color: rgba(0, 0, 0, 0.7); Adds a semi-transparent black overlay to the background image */
+    color: white;
+    text-align:center;
+    padding: 20px;
+}
+
+.background .content h1 {
+    font-size: 36px;
+}
+
+.background .content p {
+    font-size: 18px;
+}
+
+.trailers .written h2{
+    color: white;
+    margin-top: 50px;
+    margin-left:40px; 
+    padding: 10px;
+
+}
+
+.trailers .cards{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.trailers .cards img{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    
+}
+
+.trailers .cards :hover{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    cursor: pointer;
+}
