@@ -120,3 +120,16 @@ nav {
     padding: 20px;
     cursor: pointer;
 }
+
+.trailers .viewall{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+
+.trailers .viewall a{
+    text-decoration: none;
+    color: white;
+
+}
