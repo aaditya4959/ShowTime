@@ -27,6 +27,8 @@ nav {
 .nav-links a:hover {
     background-color: #B76E22;
     border: solid 1px white;
+    border-radius: 10px;
+    padding: 5px;
     
 }
 
