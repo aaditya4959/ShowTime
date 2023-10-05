@@ -1,0 +1,50 @@
+body {
+    background-color: #131313;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+.logo img{
+    height: 40px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.nav-links a:hover{
+    background-color: #B76E22;
+    border: solid 1px white;
+}
+.nav-links a{
+    position:relative  /*Check this in the position chapter. Needs correctio*/
+
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #B76E22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+

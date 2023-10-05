@@ -22,7 +22,7 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 .nav-links a:hover {
     background-color: #B76E22;
@@ -39,11 +39,7 @@ nav {
     text-decoration: none; /* Remove underlines from links */
 }
 
-.nav-links li:not(:last-child)::after {
-    content: "|";
-    position: absolute;
-    right: -5px;
-}
+
 
 
 
@@ -61,12 +57,7 @@ nav {
     gap: 15px;
 }
 
-.button-wrapper a:hover{
-    background-color: whitesmoke;
-    color: black;
-    
-    cursor: pointer;
-}
+
 
 .background {
     background-image: url(/index_images/theatre.jpg);
