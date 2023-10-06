@@ -68,7 +68,7 @@ nav {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .content {
@@ -91,7 +91,7 @@ nav {
     margin-top: 50px;
     margin-left:40px; 
     padding: 10px;
-
+    text-align: center;
 }
 
 .trailers .cards{
@@ -126,3 +126,4 @@ nav {
     color: white;
 
 }
+
