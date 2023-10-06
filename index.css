@@ -89,7 +89,7 @@ nav {
 .trailers .written h2{
     color: white;
     margin-top: 50px;
-    margin-left:40px; 
+    /* margin-left:40px;  */
     padding: 10px;
     text-align: center;
 }
