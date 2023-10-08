@@ -94,12 +94,14 @@ nav {
 }
 
 .trailers .cards{
+    
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
 }
 
 .trailers .cards img{
+    box-shadow: 0 0 10px rgba(243, 199, 6, 0.621);
     width: 200px;
     height: 250px;
     padding: 20px;
@@ -128,6 +130,7 @@ nav {
 
 .bottom{
     background-color: black;
-    height: 500px;
+    height: 250px;margin-top: 150px;
+    border-radius: 20px 20px 0px 0px ;
 }
 
