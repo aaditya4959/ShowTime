@@ -20,13 +20,13 @@ nav{
     display: flex;
     gap: 40px;
 }
-.nav-links a:hover {
+/* .nav-links a:hover {
     background-color: #B76E22;
     border: solid 1px white;
     border-radius: 10px;
     padding: 5px;
     
-}
+} */
 .nav-links a{
     position:relative  /*Check this in the position chapter. Needs correctio*/
 
@@ -50,4 +50,43 @@ nav{
     gap: 15px;
 }
 
+.belowheader{
+    display: flex;
+    justify-content: space-between;
+}
+.belowheader .nowshowing{
+    color: white;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.belowheader .language {
+    color: white;
+    margin-top: 50px;
+    margin-right: 40px;
+    
+} 
+.belowheader .language select{
+    color: #131313;
+}
+
+.trailers .cards{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.trailers .cards img{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    
+}
+
+.trailers .cards :hover{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    cursor: pointer;
+}
 

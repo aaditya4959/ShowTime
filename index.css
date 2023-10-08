@@ -24,13 +24,11 @@ nav {
     display: flex;
     gap: 40px;
 }
-.nav-links a:hover {
-    background-color: #B76E22;
-    border: solid 1px white;
-    border-radius: 10px;
-    padding: 5px;
-    
-}
+/* .nav-links a:hover {
+    /* background-color: #B76E22; */
+    /* border: solid 1px white;
+    border-radius: 3px; */
+ 
 
 .nav-links li {
     position: relative;
@@ -40,6 +38,7 @@ nav {
     color: white;
     text-decoration: none; /* Remove underlines from links */
 }
+
 
 
 
@@ -110,7 +109,7 @@ nav {
 .trailers .cards :hover{
     width: 200px;
     height: 250px;
-    padding: 20px;
+    /* padding: 20px; */
     cursor: pointer;
 }
 
@@ -125,5 +124,10 @@ nav {
     text-decoration: none;
     color: white;
 
+}
+
+.bottom{
+    background-color: black;
+    height: 500px;
 }
 
